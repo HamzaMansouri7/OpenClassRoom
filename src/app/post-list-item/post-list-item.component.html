@@ -1,0 +1,10 @@
+<div class="post-style" [ngStyle]="getColor()">
+    <h3>{{postData.title}} </h3>
+    <h4 class="hamza">{{postData.created_at | date: 'd/MM/y à H:mm'}}</h4>
+    <p>{{postData.content}}</p>
+    <!-- <h4>Love: {{postData.loveIts}}</h4> -->
+      <div class="btn-toolbar">
+        <button class="success" type="button"  (click)="onLoveIts()">Love it!</button>
+        <button class="danger"  type="button"  (click)="onDontLoveIts()">Don't love it </button>
+      </div>
+</div>

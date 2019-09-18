@@ -1,0 +1,26 @@
+.post-style {
+  border-style: solid;
+color : black
+}
+.hamza {
+  text-align: right;
+  clear: both;
+}
+.success{
+  background-color: rgba(33, 226, 75, 0.904);
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.danger{
+  background-color: rgb(219, 29, 29);
+  /* Color:white; */
+  /* font-weight: bold; */
+  padding: 10px 40px;
+  border-radius: 3px;
+  /* cursor: pointer; */
+  text-decoration: none;
+}
+
